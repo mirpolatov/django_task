@@ -2,7 +2,7 @@ from django.urls import path, include
 from market import views
 from rest_framework.routers import DefaultRouter
 
-from market.views import PriceSum, Prodcut_count
+from views import PriceSum, Prodcut_count
 
 router = DefaultRouter()
 router.register('customer', views.CustomerAPIView, 'customer')

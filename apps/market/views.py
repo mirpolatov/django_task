@@ -3,9 +3,9 @@ from tkinter.messagebox import RETRY
 from rest_framework.generics import RetrieveAPIView
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
-from market.models import CategoryModel, CustomerModel, ProductModel, ShopCardModel, ItemsModel
-from market.permission import AdminOrOwnerPermissionClass, UserPermissionClass, AdminPermissionClass
-from market.serializers import CategorySerializer, CustomerSerializer, ProductSerializer, ShopCardSerializer, \
+from models import CategoryModel, CustomerModel, ProductModel, ShopCardModel, ItemsModel
+from permission import AdminOrOwnerPermissionClass, UserPermissionClass, AdminPermissionClass
+from serializers import CategorySerializer, CustomerSerializer, ProductSerializer, ShopCardSerializer, \
     ItemsSerializer
 
 

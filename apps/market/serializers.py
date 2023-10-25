@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from .models import CustomerModel, ProductModel, ItemsModel, CategoryModel, ShopCardModel
+from models import CustomerModel, ProductModel, ItemsModel, CategoryModel, ShopCardModel
 from rest_framework.exceptions import ValidationError
 
 
